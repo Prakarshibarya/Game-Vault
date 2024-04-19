@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>
+        Game Vault.io
+    </title>
+    
+    <link rel="icon" href="splogo.avif" type="image/x-icon">
+    
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(9, 77, 77);
+}
+
+header {
+    background-color: #333;
+    color: rgb(0, 255, 170);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 20px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.game {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(181, 231, 237);
+    transition: background-color 0.3s ease;
+}
+
+.game:hover {
+    background-color:antiquewhite;
+    color: black;
+}
+
+.game img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition:width 0.5s;
+}
+.game img:hover{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.game p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    border-width: 1px;
+    border-radius:2px;
+    border: solid 1px;
+    border-color:transparent;
+    padding-top: 2px;
+    padding-bottom:2px;
+    border-radius: 20px;
+    transition: font-size 0.5s;
+}
+.game p:hover{
+    font-size:20px;
+}
+
+.giphy-giphy{
+    border-radius: 50px;
+    width:150px;
+    height:100px;
+    border: solid 5px;
+    border-style: double;
+    border-color: transparent;
+    transition: border 1s;
+    object-position: 0px;
+}
+.giphy-giphy:hover{
+    border: solid;
+    cursor:pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+</style>
+<script>
+    function goToGame(url) {
+    window.location.href = url;
+}
+
+</script>
+</head>
+<body>
+    <header>
+        <h1>Game Vault</h1>
+        <img class="giphy-giphy" src="giphy.gif">
+
+        
+    </header>
+    <main>
+        <div class="game" onclick="goToGame('https://offline-dino-game.firebaseapp.com/')">
+            <img src="game1.png" alt="Game 1">
+            <p>Dino Game Premium</p>
+        </div>
+        <div class="game" onclick="goToGame('https://www.crazygames.com/game/horseback-survival')">
+            <img src="game2.avif" alt="Game 2">
+            <p>Horseback Survival</p>
+        </div>
+        <div class="game" onclick="goToGame('https://www.crazygames.com/game/rally-racer-dirt')">
+            <img src="game3.jpg" alt="Game 3">
+            <p>Rally Drift</p>
+        </div>
+
+        <div class="game" onclick="goToGame('https://www.crazygames.com/game/foono-online-multiplayer-card-game')">
+            <img src="game4.avif" alt="Game 4">
+            <p>Uno</p>
+        </div>
+        
+        <div class="game" onclick="goToGame('https://www.crazygames.com/game/mini-golf-club')">
+            <img src="game5.avif" alt="Game 5">
+            <p>Mini Golf</p>
+        </div>
+        
+        <div class="game" onclick="goToGame(' https://www.crazygames.com/game/tic-tac-toe')">
+            <img src="game6.jpg" alt="Game 6">
+            <p>Tic Tac Toe</p>
+        </div>
+        
+        <div class="game" onclick="goToGame('https://www.crazygames.com/game/soccer-bros')">
+            <img src="game7.avif" alt="Game 7">
+            <p>Soccer Bros</p>
+        </div>
+            
+        <div class="game" onclick="goToGame('https://www.crazygames.com/game/dead-land-survival')">
+            <img src="game8.avif" alt="Game 8">
+            <p>Dead Land Survival</p>
+        </div>
+            
+        <div class="game" onclick="goToGame('https://www.crazygames.com/game/basketbros')">
+            <img src="game9.jpg" alt="Game 9">
+            <p>Basket Bros</p>    
+        </div>
+
+
+        <div class="game" onclick="goToGame('https://www.crazygames.com/game/chess-online-multiplayer-game')">
+            <img src="game10.avif" alt="Game 10">
+            <p>Chess Multiplayer</p>
+        </div>
+
+
+        
+        <!-- Add more game divs as needed -->
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

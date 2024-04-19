@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Games Vault.io</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<link rel="icon" href="gamecontroller.jpg" type="image/x-icon">
+
+<style>
+  /* Reset CSS */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+
+  /* Navigation Styles */
+  nav {
+    background-color: #333;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+  }
+
+  nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+
+  /* Hero Section */
+  .hero {
+    background-image: url('https://cdn.magicdecor.in/com/2024/02/08163057/Vibrant-Gaming-Controller-Wallpaper-for-Gaming-Lovers.jpg');
+    background-size:contain;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+  }
+
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+
+  /* Services Section */
+  .services {
+    background-color: #333;
+    padding: 80px 0;
+    text-align: center;
+    color:white;
+  }
+
+  .service-item {
+    margin-bottom: 40px;
+  }
+
+  .service-icon {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .service-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .service-description {
+    font-size: 1.1em;
+  }
+
+  /* Portfolio Section */
+  .portfolio {
+    background-color: rgb(9, 77, 77);
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+  }
+
+  .portfolio-item {
+    margin-bottom: 40px;
+    cursor: pointer;
+  }
+
+  .portfolio-img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    transition: width 1s;
+  }
+  .portfolio-image:hover{
+    width: 450px;
+    cursor: pointer;
+  }
+
+  /* About Section */
+  .about {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  /* Contact Section */
+  .contact {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+  }
+
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Footer Styles */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .secret{
+    color:white;
+    font-size:20px;
+  }
+  .ff-a{
+    background-color:green;
+  }
+
+  .final-entry{
+    color:white;
+    text: bold;
+    font:bold;
+    font-size:18px;
+    tetx
+    
+  }
+
+
+</style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="home" class="hero">
+  <div>
+    <h1>Welcome to Our Gaming Website</h1>
+    <p>Discover the best games for your free time.</p>
+  </div>
+</section>
+
+<section id="services" class="services">
+  <div class="container">
+    <h2>Our Services</h2>
+    <div class="service-item">
+      <i class="fas fa-code service-icon"></i>
+      <h3 class="service-title">Web Development</h3>
+      <p class="service-description">We create easy access to your favourite games.</p>
+    </div>
+    <div class="service-item">
+      <i class="fas fa-mobile-alt service-icon"></i>
+      <h3 class="service-title">Mobile Apps</h3>
+      <p class="service-description">Get intuitive mobile applications for your games.</p>
+    </div>
+    <div class="service-item">
+      <i class="fas fa-chart-bar service-icon"></i>
+      <h3 class="service-title">Digital Game Marketing</h3>
+      <p class="service-description">Boost your online presence with our effective gaming strategies.</p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="portfolio">
+  <div class="container">
+    <h2>Portfolio</h2>
+    <div class="portfolio-item">
+      <img src="game8.avif" alt="Portfolio Item" class="portfolio-img">
+    </div>
+    <div class="portfolio-item">
+      <img src="game10.avif" alt="Portfolio Item" class="portfolio-img">
+    </div>
+    <div class="portfolio-item">
+      <img src="game6.jpg" alt="Portfolio Item" class="portfolio-img">
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>WE are a team of professional students --->SARAH and PRAKARSHI</p><p>Studying at VIT Vellore</p>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact Us  </h2>
+    <div class="contact-form">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button>Send Message</button><br>
+        <br>
+        <button><a class="secret" href="dummy.html">Secret Vault</a></button>
+        <p class="final-entry">CLICK TO PLAY</p>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2024 GamesVault.io All rights reserved.</p>
+  </footer>
+  
+  </body>
+  </html>
